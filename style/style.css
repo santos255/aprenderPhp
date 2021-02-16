@@ -74,6 +74,7 @@ header .discription a {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 20px;
+  margin-top: 20px;
   text-decoration: none;
   color: #fff;
 }
@@ -87,8 +88,9 @@ header .discription a {
 
 .dis_art {
   font-size: 20px;
-  color: #a8a0a0;
+  color: #fff;
   margin: 2px;
+  padding: 20px;
 }
 
 .main {
