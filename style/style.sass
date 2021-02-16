@@ -1,0 +1,190 @@
+*
+    border: 0
+    padding: 0
+    box-sizing: border-box
+
+body
+    margin: auto
+    color: #f8f8f8
+    h1
+        font-family: 'Montserrat', sans-serif
+    p,a,h3
+        font-family: 'Roboto', sans-serif
+
+header
+    background-image: url(../images/header.png)
+    background-size: cover
+    background-repeat: no-repeat
+    width: 100%
+    justify-content: center
+    align-items: center
+    text-align: center
+    padding: 50px
+
+    .fh
+        align-items: center
+        padding: 20px auto 2px
+
+        h3
+            margin: 50px auto 10px
+
+        .login
+            padding: 5px
+
+            a
+                text-decoration: none
+                padding: 5px
+                color: #fff
+                transition: 1s
+                transition-duration: 0.3s
+            a:hover
+                border: solid 2px #fff
+                border-radius: 20px
+                padding: 5px 10px
+                background-color: #ffffff00
+
+    .discription
+        h1
+            margin-top: 50px
+        a
+            background-color: #f50303
+            padding: 10px
+            border-radius: 10px
+            margin-bottom: 20px
+            text-decoration: none
+            color: #fff
+.maintit
+    margin-top: 50px
+    text-align: center
+    font-size: 20px
+    color: #000000
+.dis_art
+    font-size: 20px
+    color: #a8a0a0
+    margin: 2px
+
+.main
+    display: block
+    padding: 5px
+    margin: auto
+    gap: 10px
+    align-items: center
+
+    .art
+
+        padding: 10px
+        background-size: cover
+        background-position: center
+        height: 500px
+        border-radius: 5px
+        display: flex
+        flex-direction: column
+        justify-content: flex-end
+        gap: 10px
+        margin: 10px
+
+        .step
+            background-color: #f50404a1
+            background-position: center
+            width: 70px
+            color: #fff
+            border-radius: 10px
+            padding: 5px
+    .art1
+        background-image: url(../images/step1desk.png)
+    .art2
+        background-image: url(../images/step2desk.png)
+    .art3
+        background-image: url(../images/step3desk.png)
+.contact
+    color: #030303
+    display: flex
+    flex-direction: column
+    text-align: center
+    border-bottom: 2px solid #ff0b0b
+    padding: 50px
+    form
+        display: flex
+        flex-direction: column
+        margin: auto
+
+        input
+            border: solid 1px #6d6969
+            height: 30px
+            border-radius: 10px
+            text-align: center
+
+        a
+            background-color: #f71e1e
+            margin-top: 10px
+            padding: 7px 10px
+            border-radius: 10px
+            text-decoration: none
+            color: #fff
+
+footer
+    display: flex
+    flex-direction: column
+    align-items: center
+    justify-content: center
+
+    h2
+        color: #000000
+    p
+        color: #f50d0d
+        font-weight: bold
+    ul
+        display: flex
+        align-items: center
+        justify-content: center
+        list-style: none
+        li
+            a
+                text-decoration: none
+                padding: 10px
+                color: #a8a5a5
+
+    /****************Tableat**********************/    
+
+@media screen and ( min-width: 768px  )
+    body
+        width: 940
+
+    header
+        padding-top: 10px
+        height: 400px
+
+        .fh
+            display: flex
+            justify-content: space-between
+            align-items: center
+            h3
+                margin: 50px
+    .main
+        display: flex
+        padding: 0px
+        .art
+            height: 400px
+            margin: 0px
+    .contact
+        form
+            flex-direction: row
+            align-items: center
+            gap: 5px
+            a
+                margin-top: 0px
+    footer
+        flex-direction: row
+        gap: 50px
+        align-items: start
+        ul
+            display: block
+            h2
+                margin: 0px
+/*********************Desktop*********************/
+@media screen and ( min-width: 940px  )
+    body
+        width: 1200px
+
+    .main
+        margin: 2px 60px
